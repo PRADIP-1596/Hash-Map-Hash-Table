@@ -1,5 +1,4 @@
 package com.bridgelabz.main;
-
 public class HashMap<K, V> {
     MyLinkedList<K> myLinkedList;
 
@@ -21,7 +20,6 @@ public class HashMap<K, V> {
             myMapNode.setValue(value);
         }
     }
-
     @Override
     public String toString() {
         return "MyHashMapNodes { " + myLinkedList + " }";
